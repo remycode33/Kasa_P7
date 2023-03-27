@@ -1,0 +1,21 @@
+@import '../../sass/main.scss';
+
+.tags-container{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    width:100%;
+    margin: 8px 0px;
+    .tag{
+    @include flex();
+    text-align:center;
+    margin:5px 0px;
+    font-size: 14px;
+    width:115px;
+    height:25px;
+    border-radius:10px;
+    color: white;
+    background-color: $color-secondary;
+    line-height:0.9em;
+    }
+}

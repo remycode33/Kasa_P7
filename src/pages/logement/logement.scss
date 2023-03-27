@@ -1,0 +1,82 @@
+@import '../../sass/main.scss';
+
+.container-logement{
+    width:100%;
+    main{
+        @include flex(row,space-between,flex-start);
+        flex-wrap: wrap;
+        max-width: 95%;
+        margin:20px auto;
+        height: fit-content;
+
+        .box-left{
+            @include flex(column, space-between,flex-start);
+            flex-wrap:wrap;
+            width: 50%;
+            height: 100%;
+            margin:0px;
+            @media screen and (max-width:767px){
+                width: 100%;}
+            .titles  {
+                max-width:100%;
+                color:$color-secondary;
+                h2{
+                    line-height: 142.6%;
+                    white-space:nowrap;
+                    text-align:start;
+                    margin:0px;
+                    font-size:clamp(18px, 2.5vw, 36px);
+                    font-weight:500!important;
+                    @media screen and (max-width:767px){
+                        white-space: normal;
+                    };
+                    
+                }
+                h3{
+                    @include flex(row, flex-start, flex-start);
+                    line-height: 142.6%;
+                    padding:0px;
+                    margin:0px;
+                    font-size:clamp(14px, 1.8vw, 18px);
+                }
+            }
+        }
+        .box-right{
+            @include flex(column, space-between, flex-end);
+            flex-wrap:wrap;
+            width:50%;
+            @media screen and (max-width:767px){
+                // height:64px;
+                flex-direction: row-reverse;
+                flex-wrap: nowrap;
+                justify-content: space-between;
+                width:100%;
+            }
+        }
+    
+        
+        .collapse{
+            width:calc(95%/2);
+            margin:16px 0px;
+            line-height: 142%;
+            @media screen and (max-width: 767px){
+                width:100%;
+                display:block;
+            } 
+            p{
+                margin: 0 0;
+                font-size:14px;
+                text-decoration: inherit;
+                justify-content: flex-start;
+            }
+            &_content{
+                height: 249px;
+                @media screen and (max-width:767px){
+                    height :fit-content;
+                };
+            }
+        }
+
+
+    }
+}

@@ -1,0 +1,41 @@
+@import '../../sass/main.scss';
+
+.errorPage{
+    margin: 0 auto;
+    h2,h3,div{
+        @include flex;
+        font-family: 'Montserrat';
+        font-style: normal;
+        color: #FF6060;
+        line-height: 142.6%;
+        font-weight: 500;
+        text-align: center;
+    }
+    
+    h2{
+        font-weight: 700;
+        font-size: 288px;
+        margin-top: 174px;
+        @media screen and (max-width:767px){
+            font-size: 26vw;
+        }
+    }
+    
+    h3 {
+        font-size: 36px;
+        padding: 0px 57px 0px 57px;
+        @media screen and (max-width:767px){
+            font-size: 18px 
+        }
+    }
+    
+    div{
+        font-size: 18px;
+        margin-top: 182px;
+        margin-bottom: 159px;
+        text-decoration: underline;
+        @media screen and (max-width:767px){
+            font-size: 14px 
+        }
+    }
+}

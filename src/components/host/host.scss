@@ -1,0 +1,29 @@
+@import '../../sass/main.scss';
+
+.host-container{
+    @include flex(row, flex-end);
+    width: 165px;
+    // margin: 0px 0px;
+    @media screen and (max-width:767px){
+
+    }
+    .name{
+        margin:0 10px;
+        p{
+            margin:0px;
+            text-decoration: inherit;
+            width: 100%;
+            color:$color-secondary;
+        }
+    }
+
+    .picture{
+        img{
+            margin: 0px;
+            width:64px;
+            height:64px;
+            border-radius:50%;
+        }
+    }
+    
+}

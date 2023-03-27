@@ -1,0 +1,11 @@
+@import '../../sass/main.scss';
+
+.stars{
+    width:100%;
+    height:fit-content;
+    margin:10px 0px;
+    @include flex(row, flex-end);
+    @media screen and (max-width:767px){
+        align-self: center;
+        justify-content: flex-start;}
+    }
