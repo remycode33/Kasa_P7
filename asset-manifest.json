@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/PROJET-6_Kasa_SPA-ReactJS/static/css/main.9617e397.css",
-    "main.js": "/PROJET-6_Kasa_SPA-ReactJS/static/js/main.9bcaa4db.js",
-    "static/media/about_cover.png": "/PROJET-6_Kasa_SPA-ReactJS/static/media/about_cover.9438035cca5a38fcb06a.png",
-    "static/media/home_cover.png": "/PROJET-6_Kasa_SPA-ReactJS/static/media/home_cover.84132b0f93bbeaa2fe46.png",
-    "index.html": "/PROJET-6_Kasa_SPA-ReactJS/index.html",
-    "main.9617e397.css.map": "/PROJET-6_Kasa_SPA-ReactJS/static/css/main.9617e397.css.map",
-    "main.9bcaa4db.js.map": "/PROJET-6_Kasa_SPA-ReactJS/static/js/main.9bcaa4db.js.map"
+    "main.css": "/p6/static/css/main.71c5eb0b.css",
+    "main.js": "/p6/static/js/main.496bea47.js",
+    "static/media/about_cover.png": "/p6/static/media/about_cover.9438035cca5a38fcb06a.png",
+    "static/media/home_cover.png": "/p6/static/media/home_cover.84132b0f93bbeaa2fe46.png",
+    "index.html": "/p6/index.html",
+    "main.71c5eb0b.css.map": "/p6/static/css/main.71c5eb0b.css.map",
+    "main.496bea47.js.map": "/p6/static/js/main.496bea47.js.map"
   },
   "entrypoints": [
-    "static/css/main.9617e397.css",
-    "static/js/main.9bcaa4db.js"
+    "static/css/main.71c5eb0b.css",
+    "static/js/main.496bea47.js"
   ]
 }
